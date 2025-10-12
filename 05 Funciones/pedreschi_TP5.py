@@ -189,7 +189,7 @@ for i, producto in enumerate(ventas):
     total = sum(producto)
     print(f"Total vendido del producto {i+1}: {total}")
 
-ventas_diarias = [sum(dia) for dia in zip(*ventas)]
+ventas_diarias = [sum(dia) for dia in zip(*ventas)] #zip cambierte filas en coumnas
 dia_max_ventas = ventas_diarias.index(max(ventas_diarias)) + 1
 print(f"Día con mayores ventas totales: {dia_max_ventas}")
 
