@@ -1,0 +1,4 @@
+Manzana,1.5,10
+Leche,2.0,5
+Pan,0.5,20
+arroz,3.0,34
