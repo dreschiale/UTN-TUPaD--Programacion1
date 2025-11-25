@@ -29,12 +29,20 @@ País agregado con éxito.
 - Buscar país:
 Ingrese el nombre del país a buscar: Argentina
 Resultados de la búsqueda:
-{'nombre': 'Argentina', 'poblacion': 45376763, 'superficie': 2780400, 'continente': 'América'}
+Nombre del país: Argentina
+Población: 45376763
+Superficie: 2780400
+Continente: America
+------------------------
 
-- Mostrar estadísticas:
+Mostrar estadísticas:
 Estadísticas:
-País con mayor población: China
-País con menor población: Vaticano
-Promedio de población: 12345678.90
-Promedio de superficie: 1234567.89
+País con mayor población: Brasil
+País con menor población: Argentina
+Promedio de población: 117079875.00
+Promedio de superficie: 3007791.00
+Cantidad de países por continente:
+America: 2
+Asia: 1
+Europa: 1
 
