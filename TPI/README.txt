@@ -2,6 +2,8 @@ Trabajo Practico Integrador
 Este programa en Python permite gestionar información sobre países, incluyendo su nombre, población, superficie y continente. 
 Ofrece un menú de opciones para agregar, actualizar, buscar y filtrar países, así como para mostrar estadísticas sobre los datos almacenados. 
 
+Video: https://youtu.be/wmxdOgab3yk
+
 Uso
 1. Ejecute el programa y seleccione una opción del menú.
 2. Siga las instrucciones para realizar la acción deseada.

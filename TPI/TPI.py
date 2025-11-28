@@ -91,15 +91,15 @@ def agregar_pais(datos):
 
 # Función para actualizar los datos de un país
 def actualizar_pais(datos):
-    nombre = input("Ingrese el nombre del pais a actualizar: ")
+    nombre = input("Ingrese el nombre del país a actualizar: ").strip().lower()
     for pais in datos:
-        if pais['nombre'] == nombre:
+        if pais['nombre'].strip().lower() == nombre:
             pais['poblacion'] = int(input("Ingrese la nueva población del país: "))
             pais['superficie'] = int(input("Ingrese la nueva superficie del país: "))
             guardar_datos_csv('paises.csv', datos)
             print("País actualizado con éxito.")
             return
-    print("País no encontrado.")
+    print("País no encontrado.")
 
 
 # Función para buscar un país por nombre
